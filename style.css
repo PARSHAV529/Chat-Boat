@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, arial, helvetica;
+
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf6f9;
+
+
+}
+
+
+.main {
+    position: relative;
+    /* right: 35rem;
+    bottom: 7rem; */
+    height: 30rem;
+    width: 22rem;
+    background-color: white;
+   
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.8);
+    border-radius: 0.4rem;
+}
+
+.header {
+
+    font-size: 1.75rem;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+    background-color: #c8b6ff;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.chatBOx li {
+    list-style-type: none;
+}
+
+.chatBOx::-webkit-scrollbar {
+    display: none;
+  }
+.chatBOx {
+    height: 22.9rem;
+    overflow-y: scroll; 
+    -ms-overflow-style: none;  /* IE and Edge */
+ 
+    
+    padding: 0.5rem 0.5rem 0.5rem;
+
+
+}
+
+.main .chat-input {
+    position: absolute;
+    bottom: 0px;
+}
+
+ .In {
+ 
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.In p {
+    font-size: 1.1rem;
+    background-color: #edf6f9;
+    padding: 7px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+
+    border-radius: 0px 10px 10px 10px;
+}
+
+.chatBOx .chat {
+    display: flex;
+  
+}
+
+
+.chatBOx .out{
+    justify-content: flex-end;
+
+}
+
+.out p{
+    margin-top: 10px;
+    text-align: end;
+    width:fit-content ;
+ 
+     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+ 
+     
+ 
+     border-radius: 10px 0px 10px 10px;
+ 
+    font-size: 1.1rem;
+    background-color: #c8b6ff;
+    padding: 7px 10px;
+
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 0rem 0rem 0.4rem 0.4rem;
+
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+
+}
+
+.chat-input textarea {
+    width: 100%;
+height: 2.3rem;
+    border: none;
+    outline: none;
+    border-radius: 0rem 0rem 0rem 0.4rem;
+    /* background-color: #edf6f9; */
+font-size: 1.2rem;
+    padding: 0.4rem;
+    line-height: 2.3rem;
+    text-decoration: none;
+    
+
+}
+
+.chat-input i {
+ 
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+
+
+    /* background-color: #c8b6ff; */
+}
